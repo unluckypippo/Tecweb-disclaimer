@@ -45,7 +45,7 @@ function spid_addIdpEntry(data, element) {
     li.innerHTML = `<button class="idp-button-idp-logo" name="${data['organization_name']}" type="submit"><span class="spid-sr-only">${data['organization_name']}</span><img class="spid-idp-button-logo" src="${data['logo_uri']}" alt="${data['organization_name']}" /></button></li>`
   };  
   if (element.id.indexOf('get')!== -1) {
-    li.innerHTML = `<a href="#"><span class="spid-sr-only">${data['organization_name']}</span><img src="${data['logo_uri']}" alt="${data['organization_name']}" /></a>`
+    li.innerHTML = `<a href="http://tecweb.studenti.math.unipd.it/dtestoli"><span class="spid-sr-only">${data['organization_name']}</span><img src="${data['logo_uri']}" alt="${data['organization_name']}" /></a>`
   };
   element.prepend(li)
 }

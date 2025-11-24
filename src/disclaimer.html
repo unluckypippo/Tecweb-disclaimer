@@ -6,6 +6,10 @@
     <title>Disclaimer</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <!-- Load spid-button style and font -->
+        <link rel="stylesheet" href="css/spid-sp-access-button.min.css" />
+        <script type="text/javascript"src="js/jquery.min.js"></script>
+        <script type="text/javascript"src="js/spid-sp-access-button.min.js"></script>
 </head>
 <body>
     <section id="contenuto">
@@ -27,9 +31,18 @@
                     <p id="message">I prodotti presenti su questo sito sono destinati
                     esclusivamente ad un pubblico adulto e maggiorenne,
                     secondo le leggi vigenti nel paese di residenza.</p>
-                <section id="spid">
-                    <p>Inserisci lo SPID per continuare a navigare sul sito.</p>
-                    <button>SPID</button>
+                <section>
+                    <p id="spid">Inserisci lo SPID per continuare a navigare sul sito.</p>
+                    <!--  PROVA PULSANTE SPID -->
+                    
+                    <a href="#" class="italia-it-button italia-it-button-size-m button-spid" spid-idp-button="#spid-idp-button-medium-get" aria-haspopup="true" aria-expanded="false">
+                    <span class="italia-it-button-icon">
+                        <img src="img/spid-ico-circle-bb.svg" onerror="this.src='img/spid-ico-circle-bb.png'; this.onerror=null;" alt=""/> 
+                    </span>
+                    <span class="italia-it-button-text"> Entra con SPID </span>
+                    </a>
+                    <!-- AGID - SPID IDP BUTTON MEDIUM "ENTRA CON SPID" * end * -->
+                    <!-- FINE PROVA-->
                 </section>
                 
                 <p id="info">

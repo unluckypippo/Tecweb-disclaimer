@@ -1,7 +1,14 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 
 html, body{
     font-size: 100%;
-    font-family: url("src/fonts/Comfortaa/static/Comfortaa-Regular.ttf"), sans-serif;
+    font-family: "Comfortaa";
     background: url("images/Parties.jpg");
     line-height: 1.5em;
     margin: 0%;

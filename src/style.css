@@ -52,8 +52,8 @@ html, body{
     padding-top: 2em;
     font-size: 60px;
     font-weight: bold;
-    -webkit-text-stroke: 3px #fff;
-    text-shadow: 2px 2px 4px #fff;
+    -webkit-text-stroke: 3px fuchsia;
+    text-shadow: 2px 2px 4px #FFF;
     color: transparent;
 }
 

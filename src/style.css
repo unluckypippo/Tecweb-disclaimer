@@ -33,8 +33,10 @@ html, body{
 
 
 .language-selector {
-    padding-left: 80%;
     position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-left: 0;
     margin-bottom: 20px;
 }
 
@@ -76,7 +78,9 @@ header h2{
 /*      MAIN        */
 
 .container{
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
+  min-height: auto;
   height: 1000px;
   margin: auto;
   text-align: center;
@@ -118,4 +122,29 @@ footer{
 footer:p{
     font-style: italic;
     display: inline;
+}
+
+
+/*
+    for mobile phone display
+*/
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 3em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+    .hollow-text {
+        font-size: 40px;
+        -webkit-text-stroke: 2px fuchsia;
+    }
+    #message {
+        padding-bottom: 2%;
+    }
+
+    #info {
+        padding-top: 5%;
+    }
 }

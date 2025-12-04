@@ -60,11 +60,17 @@ html, body{
 }
 
 header h1{  
-    font-size: 5em;
+    font-size: 10em;
     margin-top: 0;
-    padding: 0.5em;
-    text-align: center;
+    line-height: 1.5em;
+    background-image: url('images/title.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
 }
+
+
 
 header h2{
     font-size: 1.8em;

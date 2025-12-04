@@ -37,7 +37,8 @@ html, body{
     top: 10px;
     right: 10px;
     padding-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
 }
 
 #language {
@@ -62,7 +63,7 @@ html, body{
 header h1{  
     font-size: 10em;
     margin-top: 0;
-    line-height: 1.5em;
+    line-height: 3em;
     background-image: url('images/title.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -138,9 +139,10 @@ footer:p{
 @media (max-width: 600px) {
     header h1 {
         font-size: 3em;
+        line-height: 3em;
     }
     header h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .hollow-text {
         font-size: 40px;
@@ -148,9 +150,22 @@ footer:p{
     }
     #message {
         padding-bottom: 2%;
+        font-size: 0.8em;
     }
 
     #info {
         padding-top: 5%;
+        font-size: 0.8em;
+    }
+    .language-selector {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-left: 0;
+        margin-bottom: 3em;
+        padding-bottom: 3em;
+    }
+    .language-selector > label {
+        font-size: 0.8em;
     }
 }

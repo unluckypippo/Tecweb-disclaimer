@@ -18,7 +18,7 @@
     <!-- Cocktail stick -->
     <line x1="-40" y1="-80" x2="40" y2="0" />
     <!-- Olive -->
-    <circle cx="15" cy="-25" r="18" fill="white" />
+    <circle cx="15" cy="-25" r="18" fill="green" />
   </g>
 
   <!-- Text: CraftYourCocktail -->
